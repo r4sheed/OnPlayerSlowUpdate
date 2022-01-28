@@ -10,7 +10,7 @@
 #define _OnPlayerSlowUpdate_included
 
 #include <a_samp>
-#include <YSI\y_timers>
+#include <YSI_Coding\y_timers>
 
 ptask _opsu_update[100](playerid) {
     CallLocalFunction("OnPlayerSlowUpdate", "d", playerid);
