@@ -1,6 +1,6 @@
 # OnPlayerSlowUpdate
 
-[![sampctl](https://shields.southcla.ws/badge/sampctl-OnPlayerSlowUpdate-2f2f2f.svg?style=for-the-badge)](https://github.com/Southclaws/OnPlayerSlowUpdate)
+[![sampctl](https://shields.southcla.ws/badge/sampctl-OnPlayerSlowUpdate-2f2f2f.svg?style=for-the-badge)](https://github.com/r4sheed/OnPlayerSlowUpdate)
 
 This library provides the event `OnPlayerSlowUpdate` which is like
 `OnPlayerUpdate` except it only fires every 100ms instead of every ~20ms. This
@@ -29,7 +29,7 @@ will most likely disappear in favour of a better architecture.
 Simply install to your project:
 
 ```bash
-sampctl package install Southclaws/OnPlayerSlowUpdate
+sampctl package install r4sheed/OnPlayerSlowUpdate
 ```
 
 Include in your code and begin using the library:
